@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: prutvi.paladugula@gramener.com - Update a file
+      - name: pruthvi.paladugula@gramener.com - Update a file
         run: |
           # Create or modify a file in the repository
           echo "This file was updated by the GitHub Actions workflow at $(date)" > update.txt
